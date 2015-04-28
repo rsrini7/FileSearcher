@@ -120,7 +120,7 @@ public class FileSearchTask extends Task<Void>
 	 *
 	 * @param path the path
 	 */
-	private void updateUI(Path path)
+	private void updateUI(final Path path)
 	{
 		Platform.runLater(new Runnable() {
 			@Override
